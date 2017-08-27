@@ -22,13 +22,13 @@ TARGET_BOOTANIMATION_HALF_RES := true
 PRODUCT_RELEASE_NAME := msm8909
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+#$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lenovo/x103f/full_x103f.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_x103f
+PRODUCT_NAME := aicp_x103f
 PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := x103f
 PRODUCT_MODEL := TB-X103F
