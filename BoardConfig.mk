@@ -168,9 +168,6 @@ TARGET_HW_KEYMASTER_V03 := true
 BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 3
 #Add by tansen for Widevine fuction 20160408 SW00186672 end
 
-# Hack for building without kernel sources
-$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
-
 # SELinux policies
 include device/qcom/sepolicy/sepolicy.mk
 
