@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.disable=1
 
+#Tablet WIFI Only
+PRODUCT_PROPERTY_OVERRIDES := \
+    ro.carrier=wifi-only
+
 #Camera
 PRODUCT_PACKAGES += \
     camera.msm8909 \
@@ -32,6 +36,10 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface \
     libmmjpeg_interface \
     mm-qcamera-app
+
+# Snap camera app
+PRODUCT_PACKAGES += \
+    Snap
 
 #Display
 PRODUCT_PACKAGES += \

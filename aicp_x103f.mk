@@ -24,6 +24,9 @@ PRODUCT_RELEASE_NAME := msm8909
 # Inherit some common CM stuff.
 #$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/configs/common_mini_tablet_wifionly.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/lenovo/x103f/full_x103f.mk)
 
