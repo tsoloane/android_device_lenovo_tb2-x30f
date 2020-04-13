@@ -22,15 +22,15 @@ TARGET_BOOTANIMATION_HALF_RES := true
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lenovo/x103f/full_x103f.mk)
+$(call inherit-product, device/lenovo/tb2x30/full_tb2x30.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_x103f
+PRODUCT_NAME := lineage_tb2x30f
 PRODUCT_BRAND := lenovo
-PRODUCT_DEVICE := x103f
-PRODUCT_MODEL := TB-X103F
+PRODUCT_DEVICE := tb2x30f
+PRODUCT_MODEL := TB2-X30F
 PRODUCT_MANUFACTURER := lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Lenovo/TB-X103F/TB-X103F:6.0.1/LenovoTB-X103F/TB-X103F_S000038_180317_ROW:user/release-keys \
-	PRIVATE_BUILD_DESC="msm8909-user 6.0.1 LenovoTB-X103F TB-X103F_S000038_180317_ROW release-keys"
+    BUILD_FINGERPRINT=Lenovo/TB2-X30F/TB2-X30F:6.0.1/LenovoTB2-X30F/TB2-X30F_S000038_180317_ROW:user/release-keys \
+	PRIVATE_BUILD_DESC="msm8909-user 6.0.1 LenovoTB2-X30F TB2-X30F_S000038_180317_ROW release-keys"
