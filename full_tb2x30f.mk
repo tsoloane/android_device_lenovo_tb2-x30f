@@ -23,12 +23,12 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-$(call inherit-product, device/lenovo/x103f/msm8909.mk)
+$(call inherit-product, device/lenovo/tb2x30f/msm8909.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := lineage_x103f
+PRODUCT_NAME := lineage_tb2x30f
 PRODUCT_BRAND := lenovo
-PRODUCT_DEVICE := x103f
-PRODUCT_MODEL := TB-X103F
+PRODUCT_DEVICE := tb2x30f
+PRODUCT_MODEL := TB2-X30F
 PRODUCT_MANUFACTURER := lenovo
 
