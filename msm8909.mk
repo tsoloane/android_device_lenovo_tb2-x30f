@@ -218,4 +218,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_CHARACTERISTICS := tablet 
 
-$(call inherit-product-if-exists, vendor/lenovo/x103f/x103f-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/tb2x30f/tb2x30f-vendor.mk)
