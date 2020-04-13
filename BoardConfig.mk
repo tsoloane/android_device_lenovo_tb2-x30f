@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-DEVICE_PATH := device/lenovo/x103f
+DEVICE_PATH := device/lenovo/tb2x30f
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8909
@@ -30,7 +30,7 @@ TARGET_CPU_VARIANT := cortex-a7
 TARGET_ARCH_VARIANT := armv7-a-neon
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := msm8909,x103f
+TARGET_OTA_ASSERT_DEVICE := msm8909,tb2x30f
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk androidboot.selinux=permissive
